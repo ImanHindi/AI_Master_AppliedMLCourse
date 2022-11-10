@@ -5,7 +5,7 @@ class Point():
         self.x=x
         self.y=y
 #Line Class
-class Line(Point):
+class Line():
     def __init__(self,line_start,line_end):
         # super(Line,self).__init__([line_start[0],line_end[0]],[line_start[1],line_end[1]])
         #create two points instances
@@ -39,3 +39,4 @@ while True:
     new_line=Line([input_coordinate[0],input_coordinate[1]],[input_coordinate[2],input_coordinate[3]])
     length=new_line.line_length()
     print("the length of line =",length)
+    break
